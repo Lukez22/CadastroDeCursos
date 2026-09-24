@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|c:\\users\\lucas\\onedrive\\documentos\\teste-web\\web-api-cursos\\web-api-cursos\\controller\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\controller\\cursoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\repository\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\repository\\cursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\repository\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\repository\\icursorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\webconfig\\webconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\webconfig\\webconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\logger\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\logger\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\model\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\model\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\datanopassadoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\datanopassadoattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{151727CD-B683-4D60-B886-DF77D99C8E5C}|web-api-cursos\\web-api-cursos.csproj|solutionrelative:web-api-cursos\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataNoPassadoAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\DataNoPassadoAttribute.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\DataNoPassadoAttribute.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\DataNoPassadoAttribute.cs",
+              "RelativeToolTip": "web-api-cursos\\DataNoPassadoAttribute.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T18:57:49.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CursosController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Controller\\CursosController.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Controller\\CursosController.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Controller\\CursosController.cs",
+              "RelativeToolTip": "web-api-cursos\\Controller\\CursosController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAcwCkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:57:32.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Repository\\CursoRepository.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Repository\\CursoRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Repository\\CursoRepository.cs",
+              "RelativeToolTip": "web-api-cursos\\Repository\\CursoRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:55:11.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Logger\\Log.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Logger\\Log.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Logger\\Log.cs",
+              "RelativeToolTip": "web-api-cursos\\Logger\\Log.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wBEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:17:17.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebConfig.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Webconfig\\WebConfig.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Webconfig\\WebConfig.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Webconfig\\WebConfig.cs",
+              "RelativeToolTip": "web-api-cursos\\Webconfig\\WebConfig.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:15:47.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Model\\Curso.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Model\\Curso.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Model\\Curso.cs",
+              "RelativeToolTip": "web-api-cursos\\Model\\Curso.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T18:51:40.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICursoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Repository\\ICursoRepository.cs",
+              "RelativeDocumentMoniker": "web-api-cursos\\Repository\\ICursoRepository.cs",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Repository\\ICursoRepository.cs",
+              "RelativeToolTip": "web-api-cursos\\Repository\\ICursoRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T21:53:28.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Web.config",
+              "RelativeDocumentMoniker": "web-api-cursos\\Web.config",
+              "ToolTip": "C:\\Users\\lucas\\OneDrive\\Documentos\\teste-web\\web-api-cursos\\web-api-cursos\\Web.config",
+              "RelativeToolTip": "web-api-cursos\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-08-28T22:06:32.519Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

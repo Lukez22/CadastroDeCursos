@@ -1,0 +1,70 @@
+<div class="container">
+  <div class="text-end my-3">
+    <form>
+      <div class="input-group">
+        <label for="searchId" class="mx-2 my-2">Id:</label>
+        <input
+          id="searchId"
+          name="searchId"
+          type="text"
+          class="form-control"
+          placeholder=""
+          aria-label="Informe o id do curso"
+          [(ngModel)]="searchId"
+        />
+        <button id="search" class="btn btn-outline-primary" type="button" (click)="Get()">
+          Pesquisar
+        </button>
+        <button class="btn btn-outline-secondary" type="button" (click)="RedirectToNovo()">
+          Cadastrar
+        </button>
+      </div>
+    </form>
+  </div>
+  <div>
+    <h1 class="text-center">Lista de Cursos</h1>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th class="text-center">Id</th>
+          <th class="text-center">Nome</th>
+          <th class="text-center">Carga Horária</th>
+          <th class="text-center">Valor</th>
+          <th class="text-center">Data Inicio</th>
+          <th class="text-center">Online</th>
+          <th class="text-center">Ativo</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="corpo-tabela">
+        @for (curso of this.cursos(); track curso.id) {
+          <tr>
+            <td class="text-center">
+              <a routerLink="/cursos/editar/{{ curso.id }}">{{ curso.id }}</a>
+            </td>
+            <td class="text-center">{{ curso.nome }}</td>
+            <td class="text-center">{{ curso.cargaHoraria }}</td>
+            <td class="text-center">{{ curso.valor | currency: 'BRL'}}</td>
+            <td class="text-center">{{ (curso.dataInicio | date: 'dd/MM/yyyy') ?? "-"}}</td>
+            @if (curso.online) {
+              <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+            } @else {
+              <td class="text-center"><i class="bi bi-x-circle-fill text-danger"></i></td>
+            }
+            @if (curso.ativo) {
+              <td class="text-center"><i class="bi bi-check-circle-fill text-success"></i></td>
+            } @else {
+              <td class="text-center"><i class="bi bi-x-circle-fill text-danger"></i></td>
+            }
+            <td class="text-center"></td>
+            <td class="text-center">
+              <a style="cursor: pointer" (click)="Delete(curso.id!)"
+                ><i class="bi bi-trash-fill"></i
+              ></a>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

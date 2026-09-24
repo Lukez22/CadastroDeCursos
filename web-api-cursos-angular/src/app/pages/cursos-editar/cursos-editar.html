@@ -1,0 +1,120 @@
+<div class="container">
+  <div>
+    <h1 class="text-center my-3">Editar veículo</h1>
+    <form (submit)="Update()" #form="ngForm">
+      <div class="row mb-3">
+        <label for="nome" class="col-sm-2 col-form-label">Nome:</label>
+        <div class="col-sm-10">
+          <input
+            type="text"
+            class="form-control"
+            id="nome"
+            name="nome"
+            maxlength="150"
+            required
+            [(ngModel)]="this.curso().nome"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="cargaHoraria" class="col-sm-2 col-form-label">Carga Horária:</label>
+        <div class="col-sm-1">
+          <input
+            type="text"
+            class="form-control"
+            id="cargaHoraria"
+            name="cargaHoraria"
+            maxlength="100"
+            required
+            [(ngModel)]="this.curso().cargaHoraria"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="valor" class="col-sm-2 col-form-label">Valor:</label>
+        <div class="col-sm-2">
+          <input
+            type="text"
+            class="form-control"
+            id="valor"
+            name="valor"
+            step="0.01" 
+            min="0.01"
+            maxlength="8"
+            required
+            [(ngModel)]="this.curso().valor"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="dataInicio" class="col-sm-2 col-form-label">Data de Inicio:</label>
+        <div class="col-sm-2">
+          <input
+            type="date"
+            class="form-control"
+            id="dataInicio"
+            name="dataInicio"
+            [(ngModel)]="this.curso().dataInicio"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="online" class="col-sm-2 col-form-label">Online:</label>
+        <div class="col-sm-1 form-check form-check-inline">
+          <label class="form-check-label" for="online">Sim</label>
+          <input
+            type="radio"
+            class="form-check-input"
+            id="online"
+            [value]="true"
+            name="online"
+            required
+            [(ngModel)]="this.curso().online"
+          />
+        </div>
+        <div class="col-sm-1 form-check form-check-inline">
+          <label class="form-check-label" for="online2">Não</label>
+          <input
+            type="radio"
+            class="form-check-input"
+            id="online2"
+            [value]="false"
+            name="online"
+            required
+            [(ngModel)]="this.curso().online"
+          />
+        </div>
+      </div>
+      <div class="row mb-3">
+        <label for="ativo" class="col-sm-2 col-form-label">Ativo:</label>
+        <div class="col-sm-1 form-check form-check-inline">
+          <label class="form-check-label" for="ativo">Sim</label>
+          <input
+            type="radio"
+            class="form-check-input"
+            id="ativo"
+            [value]="true"
+            name="ativo"
+            [(ngModel)]="this.curso().ativo"
+          />
+        </div>
+        <div class="col-sm-4 form-check form-check-inline">
+          <label class="form-check-label" for="ativo2">Não</label>
+          <input
+            type="radio"
+            class="form-check-input"
+            id="ativo2"
+            [value]="false"
+            name="ativo"
+            [(ngModel)]="this.curso().ativo"
+          />
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn btn-secondary" (click)="RedirectToCursos()">Voltar</button>
+        <button type="reset" class="btn btn-secondary">Limpar</button>
+        <button class="btn btn-primary" [disabled]="form.invalid">Salvar</button>
+      </div>
+    </form>
+  </div>
+</div>
