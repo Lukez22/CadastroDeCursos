@@ -37,4 +37,9 @@ O projeto utiliza **SQL Server** para armazenamento dos dados para comunicação
 
 ## Objetivo
 
-Este projeto foi desenvolvido com o objetivo de praticar conceitos de desenvolvimento de APIs REST utilizando **C# e .NET**, além de trabalhar com banco de dados e operações CRUD.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos essenciais de desenvolvimento full stack, incluindo:
+
+-Criação de APIs REST com C# e .NET
+-Desenvolvimento de interface utilizando Angular e Bootstrap
+-Modelagem e integração com banco de dados utilizando SQL Server
+-Implementação de operações CRUD (Create, Read, Update, Delete)
