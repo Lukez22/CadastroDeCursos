@@ -26,7 +26,7 @@ A API permite realizar as principais operações de gerenciamento de cursos:
 | Método   | Descrição
 | -------- | -----------------------|
 | `GET`    | Lista todos os cursos  |
-| `GET`    | Busca um curso pelo ID |
+| `GET(id)`    | Busca um curso pelo ID |
 | `POST`   | Cadastra um novo curso |
 | `PUT`    | Atualiza um curso      |
 | `DELETE` | Exclui um curso        |
